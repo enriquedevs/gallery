@@ -1,0 +1,16 @@
+{
+  "name": "gallery",
+  "version": "1.0.0",
+  "description": "Gallery App that connects to AWS services to upload and manage images.",
+  "main": "webpack.config.js",
+  "scripts": {
+    "start": "webpack-dev-server --content-base src --inline --hot"
+  },
+  "dependencies": {
+    "webpack": "^1.12.9",
+    "webpack-dev-server": "^1.14.1"
+  },
+  "devDependencies": {},
+  "author": "Enrique Garcia",
+  "license": "enriquedevs"
+}
